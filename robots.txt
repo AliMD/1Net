@@ -1,0 +1,3 @@
+# ali.md/robots.txt
+
+User-agent: *
