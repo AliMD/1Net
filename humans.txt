@@ -1,0 +1,25 @@
+/* TEAM */
+
+  Founder: Ali Mihandoost
+  Site: http://ali.md
+  Twitter: AliMihandoost
+  Github: AliMD
+  Location: Mashhad, IR
+
+  Contributor: Ali aGHasizadeh
+  Site: http://aligh.pro
+  Twitter: aGHasizadeh
+  Github: AliGH
+  Location: Mashhad, IR
+
+/* THANKS */
+
+  Mohammad Reza Shariatzadeh, @Mrshcom
+
+/* SITE */
+
+Standards: HTML5, CSS3, Javascript, Stylus
+
+Components: Modernizr, jQuery, Html5shiv, 1Styles, Alibs
+
+Source: http://github.com/AliMD/1Net
