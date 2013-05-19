@@ -1,9 +1,13 @@
+[home]: http:http://github.com/AliMD/1Net "Professional front-end template"
+[issues]: http://github.com/AliMD/1Net/issues "Issues · AliMD/1Net"
+[support]: http://github.com/AliMD/1Tuts/issues "http://ali.md/ask"
+
 ## Contributing
-**♥** this project and want to get involved ?  
+**♥** [this][home] project and want to get involved ?  
 Thanks! There are plenty of ways you can help!  
 
 ### Report issues
-Check project and report your issue [here](https://github.com/AliMD/1Net/issues)  
+Check project and report your issue [here][issues]  
 
 1. **Report your Idea**  
   If you have a any idea about design, programming, technology and other, please open an issue.
@@ -29,6 +33,9 @@ changes to any part of the project, please open an issue to discuss it first.
 #### Usefull helps
 * [Fork A Repo](http://help.github.com/articles/fork-a-repo)
 * [Using Pull Requests](http://help.github.com/articles/using-pull-requests)
-* [Syncing A Fork](https://help.github.com/articles/syncing-a-fork)
-* [Github Help](https://help.github.com/)
+* [Syncing A Fork](http://help.github.com/articles/syncing-a-fork)
+* [Github Help](http://help.github.com/)
 * [Git Book](http://git-scm.com/book)
+
+### Help and support
+Please ask any questions about web technologies [here][support]
