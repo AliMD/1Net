@@ -27,18 +27,24 @@
 
     html,
     input {
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: Tahoma, Arial, sans-serif;
     }
 
     body {
-      max-width: 500px;
-      _width: 500px;
+      max-width: 470px;
+      _width: 470px;
       padding: 30px 20px 50px;
       border: 1px solid #b3b3b3;
       border-radius: 4px;
       margin: 0 auto;
       box-shadow: 0 1px 10px #a7a7a7, inset 0 1px 0 #fff;
       background: #fcfcfc;
+    }
+
+    .container {
+      max-width: 370px;
+      _width: 370px;
+      margin: 0 auto;
     }
 
     h1 {
@@ -62,12 +68,6 @@
     ul {
       padding: 0 0 0 40px;
       margin: 1em 0;
-    }
-
-    .container {
-      max-width: 380px;
-      _width: 380px;
-      margin: 0 auto;
     }
 
     /* google search */
@@ -153,6 +153,24 @@
       var GOOG_FIXURL_LANG = 'en',GOOG_FIXURL_SITE = location.host;
     </script>
     <script src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
+    <script type="text/javascript">
+      var $ = function(query){
+        var elemets = document.querySelectorAll(query);
+        return {
+          html: function (html) {
+            if(!elemets.length) return null;
+            if(!html) return elemets.item(0).innerHTML;
+            for(i=0;i<elemets.length;i++){
+              elemets.item(i).innerHTML = html;
+            }
+          }
+        };
+      };
+
+      $('#goog-wm .other-things b').html('راه حل های دیگر:');
+      $('#goog-wm .search-goog').html( $('#goog-wm .search-goog').html().replace('Search','جستجو در').replace('Google Search','جستجو') );
+
+    </script>
   </div>
 </body>
 </html>
